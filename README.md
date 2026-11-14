@@ -15,22 +15,27 @@ This repository tracks notable **SaaS platforms** and **open-source projects** f
 Contributions welcome! Open an PR to add/update entries. Keep descriptions factual and link to official sites.
 
 ## Table of Contents
-- [SaaS/Hosted Platforms](#saas-products)
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
+- [SaaS/Hosted Platforms](#saas-hosted-platforms)
 - [Open-Source GitHub Projects](#open-source-github-projects)
 - [How to Contribute](#how-to-contribute)
 - [Disclaimer](#disclaimer)
 
+## Sector Overview & Market Dynamics
+
+The global email marketing software market is estimated at **$1.7B – $1.8B** (expanding to **$8B – $11B+** when including the broader marketing automation ecosystem), compounding at an annual growth rate of ~9%–14%. The sector exhibits a **barbell market dynamic**: it is consolidated at the top among a handful of heavyweight platforms (e.g., Mailchimp, Klaviyo, HubSpot) capturing massive market share, yet simultaneously fragmented across mid-market and edge niches driven by vertical specialization (creator economy, e-commerce) and the emergence of AI-native orchestration tools.
+
 ## SaaS/Hosted Platforms
 
-| Product | Description | Pricing (Starting) | Free Tier / Trial Limits |
-|---------|-------------|-------------------|--------------------------|
-| **[Mailchimp](https://mailchimp.com/)** | Industry-standard email marketing with automation, segmentation, and a visual journey builder. Free plan limited by monthly sends; paid tiers scale by contact count. | Free plan available; Standard from **$20/month** | **Free**: limited monthly sends; **14-day Standard trial** |
-| **[ActiveCampaign](https://www.activecampaign.com/)** | Automation-first platform with deep behavioral triggers, conditional branching, and CRM integration. Positioned for advanced lifecycle marketing. | Quote-only (tiered by contacts/features) | Free trial available |
-| **[Klaviyo](https://www.klaviyo.com/)** | E-commerce-focused automation with deep Shopify integration, predictive analytics, and revenue attribution. | Free tier for up to 250 contacts; paid from **$20/month** | **Free**: 250 contacts, 500 monthly sends |
-| **[ConvertKit](https://convertkit.com/)** | Creator-focused email marketing with simple automation sequences and landing pages. | Free up to 1,000 subscribers; paid from **$9/month** | **Free**: 1,000 subscribers, basic automation |
-| **[GetResponse](https://www.getresponse.com/)** | Email marketing with autoresponders, landing pages, and webinar hosting. | From **$15/month** | Free trial available |
-| **[Brevo](https://www.brevo.com/)** | Email and SMS marketing with automation workflows. Free tier includes 300 emails/day. | Free: **$0** (300 emails/day); paid from **$9/month** | **Free**: 300 emails/day, unlimited contacts |
-| **[Moosend](https://moosend.com/)** | Email marketing with automation and segmentation. Positioned as an affordable Mailchimp alternative. | From **$9/month** | Free trial available |
+| Product | Company Size (Valuation / Revenue) | Description | Starting Pricing (Specific Tier) | Free Tier / Trial Limits |
+|---------|------------------------------------|-------------|----------------------------------|--------------------------|
+| **[Mailchimp](https://mailchimp.com/)** | **$12B Valuation** (Acquired by Intuit) / ~$1.3B ARR | Industry-standard email marketing platform with visual journey builder, segmentation, and extensive third-party app ecosystem. | **$13/month** (*Essentials*, 500 contacts, up to 5,000 monthly sends; Standard from $20/month) | **Free tier**: up to 250 contacts, 500 email sends/month (max 250 sends/day) |
+| **[Klaviyo](https://www.klaviyo.com/)** | **~$6B Market Cap** (NYSE: KVYO) / ~$1.4B ARR | E-commerce-focused lifecycle automation platform with deep Shopify/e-commerce integrations and predictive analytics. | **$20/month** (500 active profiles, up to 5,000 monthly sends) | **Free tier**: up to 250 active profiles, 500 email sends/month |
+| **[ActiveCampaign](https://www.activecampaign.com/)** | **$3B Valuation** (Series C) / ~$250M ARR | Automation-first platform specializing in complex multi-branch conditional triggers, CRM, and dynamic lifecycle messaging. | **$19/month** (*Starter* plan, 1,000 contacts; or $15/month billed annually) | **14-day free trial**: capped at 100 contacts, 100 total sends, 1 user seat |
+| **[Brevo](https://www.brevo.com/)** | **$1B+ Valuation** (Unicorn) / ~$215M ARR | European multi-channel suite for transactional and marketing email, SMS, and WhatsApp with volume-based pricing. | **$9/month** (*Starter* plan, 5,000 emails/month; Standard automation from $18/month) | **Free tier**: 300 emails/day (~9,000/month), storage for up to 100,000 contacts |
+| **[Kit](https://kit.com/)** *(formerly ConvertKit)* | **~$200M Valuation** / ~$50M ARR | Creator-centric email platform built for newsletters, digital commerce, audience tagging, and broadcast monetization. | **$39/month** (*Creator* plan, 1,000 subscribers; or $33/month billed annually) | **Free tier**: up to 10,000 subscribers with unlimited broadcasts (automations locked) |
+| **[GetResponse](https://www.getresponse.com/)** | **~$120M Valuation** / ~$100M ARR | Comprehensive marketing platform with autoresponders, visual automation flows, landing pages, and webinars. | **$19/month** (*Starter* plan, 1,000 contacts; or $15.58/month billed annually) | **14-day full free trial** (auto-converts to Free plan: up to 500 contacts, 2,500 sends/month) |
+| **[Moosend](https://moosend.com/)** | **Acquired by Constant Contact** / ~$4M+ ARR | Lightweight email automation and autoresponder platform offering visual workflows and predictive product recommendations. | **$9/month** (*Pro* plan, 500 subscribers, unlimited email sends) | **30-day free trial**: up to 1,000 contacts with unlimited email sends |
 
 ## Open-Source GitHub Projects
 
