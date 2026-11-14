@@ -1,0 +1,151 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#0a0f1d" />
+    </linearGradient>
+
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#60a5fa" />
+      <stop offset="50%" stop-color="#a855f7" />
+      <stop offset="100%" stop-color="#ec4899" />
+    </linearGradient>
+
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#818cf8" />
+    </linearGradient>
+
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.75" />
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.85" />
+    </linearGradient>
+
+    <!-- Glowing Filters -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="35" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <filter id="nodeGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <!-- Grid Pattern -->
+    <pattern id="gridPattern" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#334155" stroke-width="0.75" stroke-opacity="0.3" />
+    </pattern>
+
+    <style>
+      .glow-orb-1 {
+        animation: pulse1 8s ease-in-out infinite alternate;
+      }
+      .glow-orb-2 {
+        animation: pulse2 10s ease-in-out infinite alternate;
+      }
+      .flow-line {
+        stroke-dasharray: 8 8;
+        animation: dashFlow 20s linear infinite;
+      }
+      .email-pulse {
+        animation: bounceFloat 4s ease-in-out infinite;
+      }
+      @keyframes dashFlow {
+        from { stroke-dashoffset: 400; }
+        to { stroke-dashoffset: 0; }
+      }
+      @keyframes pulse1 {
+        0% { transform: translate(0px, 0px) scale(1); opacity: 0.4; }
+        100% { transform: translate(40px, 20px) scale(1.15); opacity: 0.65; }
+      }
+      @keyframes pulse2 {
+        0% { transform: translate(0px, 0px) scale(1); opacity: 0.35; }
+        100% { transform: translate(-30px, -25px) scale(1.2); opacity: 0.6; }
+      }
+      @keyframes bounceFloat {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-8px); }
+      }
+    </style>
+  </defs>
+
+  <!-- Canvas Background -->
+  <rect width="100%" height="100%" fill="url(#bgGrad)" />
+
+  <!-- Animated Ambient Glowing Orbs (in background) -->
+  <g filter="url(#glow)">
+    <circle class="glow-orb-1" cx="220" cy="120" r="140" fill="#3b82f6" opacity="0.35" />
+    <circle class="glow-orb-2" cx="980" cy="280" r="160" fill="#8b5cf6" opacity="0.35" />
+    <circle cx="600" cy="380" r="100" fill="#ec4899" opacity="0.2" />
+  </g>
+
+  <!-- Technical Grid Overlay -->
+  <rect width="100%" height="100%" fill="url(#gridPattern)" />
+
+  <!-- Dynamic Animated Automation Flow Line (Background Decor) -->
+  <g opacity="0.45">
+    <path class="flow-line" d="M 60 360 C 260 360, 320 320, 480 320 C 640 320, 720 360, 920 360 C 1040 360, 1100 330, 1160 330" fill="none" stroke="#6366f1" stroke-width="2.5" />
+    <!-- Small Automation Nodes -->
+    <circle cx="280" cy="345" r="5" fill="#38bdf8" filter="url(#nodeGlow)" />
+    <circle cx="580" cy="330" r="5" fill="#a855f7" filter="url(#nodeGlow)" />
+    <circle cx="860" cy="355" r="5" fill="#ec4899" filter="url(#nodeGlow)" />
+  </g>
+
+  <!-- Floating Mail Icon & Indicator -->
+  <g class="email-pulse" transform="translate(600, 75)">
+    <rect x="-32" y="-22" width="64" height="44" rx="8" fill="#1e293b" stroke="url(#accentGrad)" stroke-width="2" />
+    <path d="M -26 -16 L 0 6 L 26 -16" fill="none" stroke="#38bdf8" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+    <circle cx="24" cy="-16" r="5" fill="#10b981" />
+  </g>
+
+  <!-- FOREGROUND: Content Elements -->
+  <!-- Category Pill -->
+  <g transform="translate(600, 142)">
+    <rect x="-180" y="-15" width="360" height="30" rx="15" fill="#1e293b" stroke="#334155" stroke-width="1.2" />
+    <text text-anchor="middle" y="5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#94a3b8" letter-spacing="2">
+      ⚡ CURATED ECOSYSTEM DIRECTORY
+    </text>
+  </g>
+
+  <!-- Main Title -->
+  <text x="600" y="205" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'SF Pro Display', Roboto, sans-serif" font-size="44" font-weight="800" fill="url(#titleGrad)" letter-spacing="-1">
+    Awesome Email Automation
+  </text>
+
+  <!-- Subtitle -->
+  <text x="600" y="248" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="20" font-weight="500" fill="#f1f5f9" letter-spacing="0.5">
+    &amp; Autoresponder Platforms
+  </text>
+
+  <!-- Tagline -->
+  <text x="600" y="284" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="400" fill="#94a3b8">
+    Top SaaS Suites, Self-Hosted Engines &amp; Open-Source Drip Journey Builders
+  </text>
+
+  <!-- Feature Tags / Pills -->
+  <g transform="translate(600, 345)">
+    <!-- Pill 1 -->
+    <g transform="translate(-320, 0)">
+      <rect x="-85" y="-16" width="170" height="32" rx="16" fill="url(#cardGrad)" stroke="#38bdf8" stroke-opacity="0.4" stroke-width="1" />
+      <text text-anchor="middle" y="5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#e2e8f0">🎯 Drip Sequences</text>
+    </g>
+    <!-- Pill 2 -->
+    <g transform="translate(-105, 0)">
+      <rect x="-95" y="-16" width="190" height="32" rx="16" fill="url(#cardGrad)" stroke="#818cf8" stroke-opacity="0.4" stroke-width="1" />
+      <text text-anchor="middle" y="5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#e2e8f0">⚡ Behavioral Triggers</text>
+    </g>
+    <!-- Pill 3 -->
+    <g transform="translate(115, 0)">
+      <rect x="-95" y="-16" width="190" height="32" rx="16" fill="url(#cardGrad)" stroke="#c084fc" stroke-opacity="0.4" stroke-width="1" />
+      <text text-anchor="middle" y="5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#e2e8f0">🛡️ Self-Hosted Freedom</text>
+    </g>
+    <!-- Pill 4 -->
+    <g transform="translate(325, 0)">
+      <rect x="-85" y="-16" width="170" height="32" rx="16" fill="url(#cardGrad)" stroke="#f472b6" stroke-opacity="0.4" stroke-width="1" />
+      <text text-anchor="middle" y="5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#e2e8f0">📊 Deliverability First</text>
+    </g>
+  </g>
+</svg>
