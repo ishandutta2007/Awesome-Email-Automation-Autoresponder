@@ -1,6 +1,6 @@
 # Awesome-Email-Automation-Autoresponder
 
-# Top Email Automation & Autoresponder Ecosystem
+## Top Email Automation & Autoresponder Ecosystem
 
 **Curated List of SaaS Platforms & Open-Source GitHub Projects**  
 *Focused on Drip Campaigns, Behavioral Triggers & Self-Hosted Newsletter Automation*  
