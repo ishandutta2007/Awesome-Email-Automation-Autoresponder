@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Email-Automation-Autoresponder/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Email-Automation-Autoresponder?style=social&color=white" alt="GitHub stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Email-Automation-Autoresponder/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Email-Automation-Autoresponder?style=social&color=white" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Email-Automation-Autoresponder/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Email-Automation-Autoresponder?style=social&color=white" alt="GitHub forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Email-Automation-Autoresponder/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Email-Automation-Autoresponder?style=flat-square" alt="License" /></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -58,9 +58,9 @@ The global email marketing software market is estimated at **$1.7B – $1.8B** (
 
 ## 🔓 Open-Source GitHub Projects
 
-Curated list of notable open-source self-hosted autoresponders, newsletter senders, and marketing automation systems, **sorted in descending order by GitHub stars**:
+Curated list of notable open-source self-hosted autoresponders, newsletter senders, and marketing automation systems, **sorted in descending order by GitHub_Stars**:
 
-| Repository | Stars | Language / Stack | License | Description |
+| Repository | GitHub_Stars | Language / Stack | License | Description |
 |:---|:---:|:---:|:---:|:---|
 | **[Novu](https://github.com/novuhq/novu)** | [![Stars](https://img.shields.io/github/stars/novuhq/novu?style=social&color=white)](https://github.com/novuhq/novu/stargazers) | TypeScript | MIT | **Open-source communication infrastructure & workflow engine.** Multi-channel orchestration across email, SMS, push, in-app notifications, and chat with a visual workflow editor and digest engines. |
 | **[Listmonk](https://github.com/knadh/listmonk)** | [![Stars](https://img.shields.io/github/stars/knadh/listmonk?style=social&color=white)](https://github.com/knadh/listmonk/stargazers) | Go / Vue | AGPL-3.0 | **High-performance newsletter & mailing list manager.** Packed into a single lightweight binary with PostgreSQL backend. Sends millions of emails with ultra-low latency; supports API triggers, templating, and bulk campaigns. |
